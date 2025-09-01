@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Software Engineer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #2563eb, #9333ea);
+      color: #fff;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #1e293b;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      color: #60a5fa;
+    }
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #60a5fa;
+    }
+    .about, .skills, .projects, .contact {
+      margin-bottom: 4rem;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .skill {
+      background: #1e293b;
+      padding: 0.75rem 1.5rem;
+      border-radius: 9999px;
+      font-weight: 600;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .project {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .project h3 {
+      color: #fbbf24;
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      background: #1e293b;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      color: #fbbf24;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact a:hover {
+      color: #60a5fa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FAVOUR OLABODE</h1>
+    <p>Software Engineer | Web & Mobile App Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate Software Engineer with expertise in building scalable web and mobile applications.
+      I love solving complex problems and creating impactful digital solutions.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span class="skill">JavaScript</span>
+      <span class="skill">React</span>
+      <span class="skill">Node.js</span>
+      <span class="skill">Python</span>
+      <span class="skill">Django</span>
+      <span class="skill">Flutter</span>
+      <span class="skill">SQL</span>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio to showcase my projects and skills, built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Task Manager App</h3>
+        <p>A productivity app with user authentication, task management, and cloud sync using React and Firebase.</p>
+      </div>
+      <div class="project">
+        <h3>E-commerce Platform</h3>
+        <p>Full-stack online store with payment integration built with Django and React.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Get in touch for collaborations or job opportunities.</p>
+    <a href="mailto:favourolabode084@gmailmail.com">Email</a>
+    <a href="tel:+2347033280848">Phone</a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
